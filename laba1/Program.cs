@@ -47,7 +47,7 @@ namespace laba1._2._0
                 return Math.Pow(x, 1.0 / y);
             }
 
-            public Num CreatObjectFromJson(string fileName)
+           /* public Num CreatObjectFromJson(string fileName)
             {
                 StreamReader r = new StreamReader(fileName);
                 string jsonString = r.ReadToEnd();
@@ -66,6 +66,25 @@ namespace laba1._2._0
                 {
                     Console.WriteLine(ex);
                 }
+            }*/
+        }
+
+        class Line
+        {
+            public Num StartPoint;
+            public Num EndPoint;
+            public double Length;
+
+            public Line(Num startPoint, Num endPoint)
+            {
+                StartPoint = startPoint;
+                EndPoint = endPoint;
+            }
+
+            public void GetLineLength()
+            {
+                double length = Math.Sqrt(Math.Pow((EndPoint.x-StartPoint.x),2)+Math.Pow((EndPoint.y-EndPoint.x),2));
+                Length=length;
             }
         }
         static void Main()
@@ -79,6 +98,8 @@ namespace laba1._2._0
             Num second_num = new Num(10, 15);
 
             Console.WriteLine("Початкові числа:");
+            first_num.Show_Vars();
+            Console.WriteLine("Початкові числа:");
             second_num.Show_Vars();
             Console.WriteLine($"Сумма чисел: {second_num.Sum()}");
             Console.WriteLine($"Різниця чисел: {second_num.Diff()}");
@@ -87,10 +108,15 @@ namespace laba1._2._0
             Console.WriteLine($"Корінь числа: {second_num.Math_root()}");
 
 
-            first_num.WriteObjectToJson(first_num, fileName);
+            Line line = new Line(first_num, second_num);
+
+            line.GetLineLength();
+            Console.WriteLine($"Довжина відрізка: {line.Length}");
+
+           /* first_num.WriteObjectToJson(first_num, fileName);
             Num third_num = first_num.CreatObjectFromJson(readyObjectFileName);
             Console.WriteLine("Об'єкт з json файлу:");
-            third_num.Show_Vars();
+            third_num.Show_Vars();*/
         }
     }
 }

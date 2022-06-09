@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Windows 10\\Documents\\2 семестр\\ОП\\laba1\\laba1\\laba1.csproj": {}
+    "C:\\Users\\Windows 10\\Documents\\2 семестр\\ОП\\Sergeev_Vlad_1\\laba1\\laba1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Windows 10\\Documents\\2 семестр\\ОП\\laba1\\laba1\\laba1.csproj": {
+    "C:\\Users\\Windows 10\\Documents\\2 семестр\\ОП\\Sergeev_Vlad_1\\laba1\\laba1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Windows 10\\Documents\\2 семестр\\ОП\\laba1\\laba1\\laba1.csproj",
+        "projectUniqueName": "C:\\Users\\Windows 10\\Documents\\2 семестр\\ОП\\Sergeev_Vlad_1\\laba1\\laba1.csproj",
         "projectName": "laba1",
-        "projectPath": "C:\\Users\\Windows 10\\Documents\\2 семестр\\ОП\\laba1\\laba1\\laba1.csproj",
+        "projectPath": "C:\\Users\\Windows 10\\Documents\\2 семестр\\ОП\\Sergeev_Vlad_1\\laba1\\laba1.csproj",
         "packagesPath": "C:\\Users\\Windows 10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Windows 10\\Documents\\2 семестр\\ОП\\laba1\\laba1\\obj\\",
+        "outputPath": "C:\\Users\\Windows 10\\Documents\\2 семестр\\ОП\\Sergeev_Vlad_1\\laba1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Windows 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
